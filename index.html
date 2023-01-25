@@ -1,17 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>My Resume</title>
-</head>
-<body>
-    <h1>Hello World</h1>
-    <h2>Hello World</h2>
-    <h3>Hello World</h3>
-    <h4>Hello World</h4>
-    <h5>Hello World</h5>
-    <h6>Hello World</h6>
-</body>
+  </head>
+  <body>
+    <!-- Wrapper -->
+    <div class="wrapper">
+      <!-- Main content -->
+      <div class="main-content">
+        <!-- About me -->
+        <div class="about-me-container">
+          <h2 class="my-profession">Front-End Developer</h2>
+          <h1 class="my-name">Myroslav Gutnyk</h1>
+
+          <p class="my-descr">
+            Front-End Developer with a proven ability to collaborate effectively with senior developers while spending extra time to be mentored. 
+            Enjoy working closely with team members to ensure workloads are effectively redirected to bottlenecks and personally picking up the slack when necessary. 
+            With a passion for both personal growth and for software development, I attended a 500+ hour coding bootcamp to learn new languages while sharpening existing skills. 
+            Ready to apply my passion for coding to a talented engineering team to develop quality solutions.
+          </p>
+        </div>
+        <!-- My projects -->
+        <div class="project-container">
+          <h3 class="main-content-title">Projects</h3>
+          <ol class="project-list">
+            <li class="project-item">
+              <a href="https://celadon-platypus-72e0cb.netlify.app/" class="project-item-link"
+                >https://celadon-platypus-72e0cb.netlify.app/</a>
+              <span class="project-item-descr">
+                .....................[ HTML5, CSS3 ]
+                </span>
+            </li>
+            <li class="project-item">
+              <a href="https://cryptohub.p.goit.global/" class="project-item-link"
+                >https://cryptohub.p.goit.global/</a>
+              <span class="project-item-descr">
+                ...................................................[ JavaScript ]
+              </span>
+            </li>
+            <li class="project-item">
+              <a href="https://kidslike.p.goit.global/" class="project-item-link"
+                >https://kidslike.p.goit.global/</a>
+              <span class="project-item-descr">
+                ..........................................................[ React.js, Node.js ]
+                </span>
+            </li>
+          </ol>
+        </div>
+        <!-- Work experience -->
+        <div class="work-experience-container">
+          <h3 class="main-content-title">Work experience</h3>
+          <!-- Company 1 -->
+          <div class="work-experience-place">
+            <h4 class="work-experience-position">Entry-Level Front-End Developer 
+              <span class="work-experience-company">
+                Freelance
+              </span></h4>
+            <p class="work-period">September 2021 - up to now | Ukraine</p>
+            <ul class="work-duties-list">
+              <li class="work-duties">
+                Maintained 20+ web pages, graphics, and online marketing materials under direction of UX manager and development team.
+              </li>
+              <li class="work-duties">
+                Created and maintained front-end code for 40+ e-Commerce websites (re-designs, seasonal updates, production work).
+             </li>
+              <li class="work-duties">
+                Produced and assisted in the deployment of 6 online marketing initiatives, including banner advertisements.
+              </li>
+              <li class="work-duties">
+                Identified and implemented dynamic web solutions in accordance to company standards and best practices.
+              </li>
+            </ul>
+          </div>
+          <!-- Company 2 -->
+          <div  class="work-experience-place">
+            <h4 class="work-experience-position">
+              Front-End Developer Intern 
+              <span class="work-experience-company">
+                HelloFresh & Co.
+              </span></h4>
+            <p class="work-period">March 2021 - October 2021 | Poland</p>
+            <ul class="work-duties-list">
+              <li class="work-duties">
+                Worked in an agile environment with weekly stand-ups, kept track of user stories/bugs in GitHub projects, and conducted 2 hours of sprint planning and sprint retrospectives per week.
+              </li>
+              <li class="work-duties">Pair programmed with 3 engineers, and reviewed team's code to provide additional perspective and catch previously
+                missed errors.</li>
+              <li class="work-duties">Identified and implemented dynamic web solutions in accordance to company standards and best practices..</li>
+            </ul>
+          </div>
+          <!-- Company 3 -->
+          <div  class="work-experience-place">
+            <h4 class="class="work-experience-position"">Manager 
+              <span class="work-experience-company">
+                BestUA Corp.
+              </span></h4>
+            <p class="work-period">June 2021 - February 2021 | Ukraine</p>
+            <ul class="work-duties-list">
+              <li class="work-duties">Assisted in building beautiful user interfaces for clients without compromising functionality for aesthetics.</li>
+              <li class="work-duties">Learned front-end object-oriented programming to develop client server systems.</li>
+              <li class="work-duties">Implemented front-end technical solutions to meet project requirements for creation of 5 new web pages.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="education">
+          <h3 class="main-content-title">Education</h3>
+          <h4 class="study-place">National Technical University of Ukraine</h4>
+          <h5 class="specialty">Management</h5>
+          <p class="study-period">September 2017 - June 2021 | Ukraine</p>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <img
+          src="./img/mg.webp"
+          alt="My photo"
+          width="370px"
+          class="my-photo"
+        />
+        
+        <!-- Contacts -->
+        <div class="contacts-container">
+          <h3 class="sidebar-title">Contacts</h3>
+          <p class="contacts-item">
+            <span class="contacts-type">C: </span>
+            <a href="tel:+380800081234" class="contacts-number"
+              >+380 80008 1234</a
+            >
+          </p>
+          <p class="contacts-item">
+            <span class="contacts-type">E: </span>
+            <a href="mailto:myroslav.g@email.com" class="contacts-email"
+              >myroslav.g@email.com</a
+            >
+          </p>
+        </div>
+
+        <!-- Tech Skills -->
+        <div class="tech-skills-container">
+          <h3 class="sidebar-title">Tech Skills</h3>
+          <ul class="skills-list">
+            <li class="skill-list-item">
+              <span class="skill-list-text">HTML5</span>
+            </li>
+            <li class="skill-list-item">
+              <span class="skill-list-text">CSS3</span>
+            </li>
+            <li class="skill-list-item">
+              <span class="skill-list-text">GIT</span>
+            </li>
+            <li class="skill-list-item">
+              <span class="skill-list-text">WebPack</span>
+            </li>
+            <li class="skill-list-item">
+              <span class="skill-list-text">JavaScript</span>
+            </li>
+            <li class="skill-list-item">
+              <span class="skill-list-text">React.js</span>
+            </li>
+            <li class="skill-list-item">
+              <span class="skill-list-text">Node.js</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="soft-skills-container">
+          <h3 class="sidebar-title">Soft Skills</h3>
+          <ul class="skills-list">
+            <li class="skill-list-item">
+              <span class="skill-list-text">Scrum</span>
+            </li>
+            <li class="skill-list-item">
+              <span class="skill-list-text">Agile</span>
+            </li>
+            <li class="skill-list-item">
+              <span class="skill-list-text">GTD</span>
+            </li>
+            <li class="skill-list-item">
+              <span class="skill-list-text">Teamwork</span>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </body>
 </html>
